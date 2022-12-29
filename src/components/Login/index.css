@@ -1,0 +1,195 @@
+.signin-main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media screen and (min-width: 768px) {
+    .signin-main-container{
+        flex-direction: row;
+    }
+}
+
+.signin-login-card{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .signin-login-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 430px;
+        width: 350px;
+        background-color: #00aa8e;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 0px 10px 0px #bfbfbf;
+    }
+    .signin-greeting{
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 600;
+        width: 320px;
+        text-align: center;
+
+    }
+    .signin-greeting-btn{
+        height: 40px;
+        width: 100px;
+        border-style: none;
+        border-radius: 4px;
+        background-color: #0a9aee;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.signin-card{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    width: 320px;
+    box-shadow: 1px 0px 10px 0px #bfbfbf;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .signin-card{
+        display: flex;
+        flex-direction: column;
+        height: 430px;
+        width: 400px;
+        box-shadow: 1px 0px 10px 0px #bfbfbf;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    
+}
+.signin-heading{
+    color: #0b385c;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.signin-email-label{
+    color: #254a68;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+
+.signin-password-label{
+    color: #254a68;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.signin-email-input{
+    height: 40px;
+    width: 250px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 1px;
+    padding: 15px;
+}
+.signin-email-input:focus{
+    box-shadow: 1px 0px 10px 0px #bfbfbf;
+}
+.signin-password-input{
+    height: 40px;
+    width: 250px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 1px;
+    padding: 15px;
+}
+.signin-password-input:focus{
+    box-shadow: 1px 0px 10px 0px #bfbfbf;
+}
+@media screen and (min-width: 768px) {
+    .signin-email-input{
+        margin-left: 50px;
+    }
+    .signin-email-label{
+        padding-left: 50px;
+    }
+    .signin-password-input{
+        margin-left: 50px;
+    }
+    .signin-password-label{
+        padding-left: 50px;
+    }
+}
+.signin-btn-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.signin-card-signup-btn{
+    height: 35px;
+    width: 90px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #0a9aee;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.signin-card-signin-btn{
+    color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    .signin-card-signin-btn{
+        display: none;
+    }
+}
+.signin-or-text{
+   margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+    .signin-or-text{
+        display: none;
+    }
+}
+.signup-discription{
+    margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+    .signup-discription{
+        display: none;
+    }
+}
